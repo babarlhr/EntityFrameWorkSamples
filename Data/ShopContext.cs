@@ -34,7 +34,7 @@ namespace EntityFrameWorkSample.Data
             //Replace with your connection string and also do not hardcode.
             //Connection string is use o connect
             string ConnectionString = @"Data Source=VU-IT-ISHFAQ\SQLEXPRESS;Initial Catalog=Shop;User ID=sa;Password=devdb456;Persist Security Info=False;Encrypt=False;";
-            optionsBuilder.UseSqlServer(ConnectionString);
+            optionsBuilder.UseSqlServer(ConnectionString); 
         }
     }
 }
