@@ -15,7 +15,7 @@ namespace EntityFrameWorkSample.Models
                                                    //! is a null-forgiving operator. https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/null-forgiving
                                                    //Nulls property will be intialize and handled by entity framework itslef so we can assign null to any property
 
-        public string? Name2 { get; set; } //Nullable    ?
+        public string? LastName { get; set; } //Nullable    ?
         //If we want to store null in models . it will also make a database coulmn with which allow to store nulls in column
         
        
