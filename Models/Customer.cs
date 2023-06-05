@@ -16,6 +16,6 @@ namespace EntityFrameWorkSample.Models
         public string? Phone { get; set; }
 
         public ICollection<Order> Orders { get; set; } = null!;  //Navigation Property  ---Collection of order objects
-        //Its means that customer had 0 Or More Orders   --- One2Many Relationship In Database
+        //Its means that customer had 0(Zero) Or More Orders   --- One2Many Relationship In Database
     }
 }
