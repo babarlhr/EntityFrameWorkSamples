@@ -15,6 +15,8 @@ namespace EntityFrameWorkSample.Models
         public string? Address { get; set; } //Allow creating database columns with null values
         public string? Phone { get; set; }
 
+        public string? Email { get; set; }
+
         public ICollection<Order> Orders { get; set; } = null!;  //Navigation Property  ---Collection of order objects
         //Its means that customer had 0(Zero) Or More Orders   --- One2Many Relationship In Database
     }
